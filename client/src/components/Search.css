@@ -1,0 +1,30 @@
+.Search {
+    margin-top: 30px;;
+}
+
+.Search-input {
+    font-size: 15px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 30px;
+    color: #fff;
+    padding: 12px 20px;
+    width: 240px;
+    font-size: 15px;
+}
+
+.Search-input::placeholder {
+    color: white
+}
+
+.Search-input:focus{
+    outline: none;
+}
+
+.Search-checkbox-container > *:not(:last-child) {
+    margin-right: 16px;
+}
+
+.Search-checkbox {
+    font-size: 15px;
+}

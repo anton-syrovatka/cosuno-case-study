@@ -1,0 +1,76 @@
+.List {
+    margin: 0px auto;
+    height: 100%;
+    width: 100%;
+    max-width: 680px;
+}
+
+.List > *:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.List-item {
+    font-size: 15px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    padding: 12px 20px 0 12px;
+    cursor: pointer;
+    display: flex;
+    height: 94px;
+}
+
+.List-item-no-content {
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.List-item-logo-container {
+    width: 140px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    margin-right: 40px;
+    border-radius: 20px;
+}
+
+.List-item-logo {
+    width: 100%;
+    height: 100%;
+    background-size: 300px;
+    top: -18px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.List-item-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+    word-break: break-all;
+    width: 485px
+}
+
+.List-item-details-specialties {
+    font-size: 17px;
+    padding-top: 10px
+}
+
+/* .List-item > * {
+    cursor: pointer;
+} */
+
+.List-item:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #DB32EB;
+}

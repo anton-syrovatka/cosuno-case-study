@@ -1,0 +1,15 @@
+version: '3'
+services:
+  api-service:
+    image: node:16
+    container_name: csn-companies-api
+    volumes:
+      - ./node_modules:/node_modules
+      - ./api:/api
+      - ./tsconfig.json:/tsconfig.json
+      - ./package.json:/package.json
+    ports:
+      - '3001:3000'
+    working_dir: /
+    command: npx ts-node-dev --project api/tsconfig.json -r tsconfig-paths/register api/index.ts
+    env_file: .env.development
