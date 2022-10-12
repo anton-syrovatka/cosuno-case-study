@@ -21,5 +21,5 @@
 
 - implement shared folder with types and interfaces for `client` and `api`
 - improve docker to be able to install modules inside container
-- enhance api with `payload`, `params` and `query param`s schema validation
+- enhance api with `payload`, `params` and `query params` schema validation
 - enhance api with `error handling` and various types of `errors` support
