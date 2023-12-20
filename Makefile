@@ -8,7 +8,7 @@ build-client:
 client:
 	cd client && npm run start
 
-backend:
+server:
 	docker-compose -f docker-compose.yaml up --build
 
 clear:

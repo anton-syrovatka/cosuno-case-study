@@ -1,3 +1,4 @@
 node_modules
+api/client
 client/node_modules
-.env.development
+client/build

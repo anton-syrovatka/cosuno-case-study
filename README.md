@@ -6,7 +6,7 @@
 
 - `make install`
 - `make build-client`
-- `make backend` starts server on port 3001
+- `make server` starts server on port 3001
 - go to `localhost:3001`
 
 ## How to run client in dev mode
